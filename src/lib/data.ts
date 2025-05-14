@@ -120,7 +120,7 @@ export const portfolioData: PortfolioData = {
   ],
   skills: [
     // Technical Skills
-    { name: "Python", category: "Technical", level: "high", imageUrl: "/python_logo.png", iconName: "Code2" },
+    { name: "Python", category: "Technical", level: "high", imageUrl: "/python.png", iconName: "Code2" },
     { name: "SQL", category: "Technical", level: "high", iconName: "Database", imageUrl: "/sql_logo.png" },
     { name: "ETL Pipeline", category: "Technical", level: "high", iconName: "Workflow" },
     { name: "Data Warehousing", category: "Technical", level: "medium", iconName: "Archive" },
@@ -162,7 +162,7 @@ export const portfolioData: PortfolioData = {
       description: "Smart RAG-based knowledge assistant with specialized agentic modules and a GenAI evaluation framework.",
       longDescription: "Built a smart RAG-based knowledge assistant that ingests data from Workfront, HubSpot, APIs, and web scraping, followed by ETL and ingestion into a vector DB with TF-IDF boosted retrieval. Developed specialized agentic modules (search agent, relevance agent, processing agent) to improve context retrieval, response accuracy, and overall efficiency of the RAG system. Designed and implemented a GenAI evaluation framework, combining BLEU, ROUGE, and LLM-as-a-judge methods to assess model outputs on correctness, relevance, instruction-following, and QA performance.",
       techStack: ["GenAI", "RAG", "Vector DB", "TF-IDF", "ETL", "Python", "APIs", "Web Scraping", "BLEU", "ROUGE", "LLM-as-a-judge"],
-      imageUrl: "/images/projects/project-knowledge-base.png",
+      imageUrl: "agentic.png",
       dataAiHint: "AI knowledge",
     },
     {
@@ -180,7 +180,7 @@ export const portfolioData: PortfolioData = {
       description: "Recommendation engine for event suggestions achieving 95% accuracy through advanced ML techniques.",
       longDescription: "Built a recommendation engine for event suggestions based on user interests, achieving an accuracy rate of 95%. Experimented with similarity metrics, clustering, and collaborative filtering techniques, achieving a 15% improvement in personalization accuracy.",
       techStack: ["Recommendation Systems", "Machine Learning", "Python", "Collaborative Filtering", "Clustering", "Similarity Metrics"],
-      imageUrl: "/images/projects/project-recommender.png",
+      imageUrl: "recommendation.png",
       dataAiHint: "event algorithm",
     },
     {
@@ -189,7 +189,7 @@ export const portfolioData: PortfolioData = {
       description: "Custom LLM solution for summarization, email generation, and recommendations from conversation data.",
       longDescription: "Developed a custom LLM solution to provide client-specific summaries, email generation, and resource recommendations based on conversation data. Implemented data cleaning, feature engineering, and context-limiting using LlamaIndex.",
       techStack: ["LLM", "LlamaIndex", "NLP", "Python", "Data Cleaning", "Feature Engineering"],
-      imageUrl: "/images/projects/project-llm-summarizer.png",
+      imageUrl: "/LLM.png",
       dataAiHint: "AI text",
     },
     {
@@ -198,7 +198,7 @@ export const portfolioData: PortfolioData = {
       description: "AI-powered system for identifying anomalies in real-time data streams using advanced ML models on GCP.",
       longDescription: "Developed a scalable anomaly detection engine for processing high-velocity streaming data. Leveraged Kafka for data ingestion, Spark Streaming for real-time processing, and a suite of unsupervised machine learning models (e.g., Isolation Forest, Autoencoders) deployed on Google Cloud Platform. The system provides alerts and dashboards for monitoring critical operational metrics, improving system reliability by 20%.",
       techStack: ["GCP", "Kafka", "Spark Streaming", "Python", "Machine Learning", "Anomaly Detection", "Docker", "BigQuery"],
-      imageUrl: "https://placehold.co/600x400.png",
+      imageUrl: "/realtime.png",
       dataAiHint: "data stream",
     },
     {
@@ -207,7 +207,7 @@ export const portfolioData: PortfolioData = {
       description: "GenAI tool to automatically generate comprehensive documentation for Python codebases.",
       longDescription: "Created an intelligent tool that leverages Large Language Models (LLMs) to parse Python code and automatically generate docstrings, README sections, and usage examples. Integrated with Git for seamless workflow integration. Utilized fine-tuning techniques on a base LLM to improve code understanding and documentation quality, reducing documentation time for developers by 40%.",
       techStack: ["GenAI", "LLM", "Python", "NLP", "Fine-tuning", "Git", "Streamlit", "Docker"],
-      imageUrl: "https://placehold.co/600x400.png",
+      imageUrl: "/docgenerator.png",
       dataAiHint: "AI code",
     }
   ],
